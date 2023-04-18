@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 .logoPosition img {
@@ -31,19 +32,18 @@
 
 .center {
     color: rgb(255, 255, 255);
-    display: absolut;
+    display: inline-block;
     margin: 0;
-    padding: 5px;
+    padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .centerSobre {
     color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
-    display: inline-block;
-    width: 70%;
-    height: 100%;
-
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
 
 }
 
@@ -75,7 +75,7 @@ a:hover {
 .hero {
     background-color: blueviolet;
     text-align: center;
-    padding: 150px 0;
+    padding: 50px 0;
 }
 
 .heroSobre {
@@ -84,27 +84,26 @@ a:hover {
     text-indent: 2em;
     width: 100%;
     height: 100%;
-    padding: 5px;
+    padding: 0px;
     margin: 0;
+    display: inline-block;
 }
 
-.heroSobre p {
-    margin-left: 2%;
-    width: 80%;
-    height: 50%;
-    display: inline-block;
-    padding: 5px;
+.heroSobre p h1 h2 {
+    margin-left: 1%;
+    margin-right: 5px;
+    width: 100%;
+    height: 100%
+    text-align: justify;
 }
 
 .imagemSobre {
-    width: 20%;
-    height: 30%;
     display: inline-block;
-    margin-left: 60%;
-    margin-inline: 60%;
-    margin-top: -70%;
-    padding: 5px; 
+    width: 500px;
+    height: 500px;
+    margin-inline: 90%;
 }
+
 .categories {
     background-color: #551B8C;
     padding: 50px 0;
@@ -229,4 +228,18 @@ footer {
     text-decoration: solid;
     text-align: center;
     padding: 5px;
+    display: absolute;
+    position: bottom;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container img {
+    width: 500px;
+    height: 500px;
+}
+
