@@ -40,6 +40,11 @@
     color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+
+
 }
 
 header {
@@ -75,26 +80,30 @@ a:hover {
 
 .heroSobre {
     background-color: blueviolet;
-    text-align: center;
-    padding: 10px 0;
     line-height: 1.5;
     text-indent: 2em;
-    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin: 0;
 }
 
 .heroSobre p {
-    margin-left: 25px;
-    margin-right: 25px;
-    width: 60%;
-    display: overflow;
+    margin-left: 2%;
+    width: 80%;
+    height: 50%;
+    display: inline-block;
+    padding: 5px;
 }
 
 .imagemSobre {
-    width: 100%;
-    height: 100%;
-    display: absolute;
-    margin-left: 550px;
-    margin-top: -450px;
+    width: 20%;
+    height: 30%;
+    display: inline-block;
+    margin-left: 60%;
+    margin-inline: 60%;
+    margin-top: -70%;
+    padding: 5px; 
 }
 .categories {
     background-color: #551B8C;
